@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/Styles.css">
+</head>
+<body>
+    <div class="'container">
+    <h3>Hello World</h3>
+    <form class="form" action="{{ url_for('predict')}}" method="POST">
+<!--           
+        <fieldset class="form-fieldset ui-input __first">
+          <input type="number" id="username" name="Year" tabindex="0" />
+          <label for="username">
+            <span data-text="">Year</span>
+          </label>
+        </fieldset>
+        
+        <fieldset class="form-fieldset ui-input __second">
+          <input type="text" id="email" name="Present_Price" tabindex="0" />
+          <label for="email">
+            <span data-text="">What is the showroom price(in Lakhs)?</span>
+          </label>
+        </fieldset> -->
+        
+        <fieldset class="form-fieldset ui-input __first">
+            <label for="cars">Choose a Team:</label>
+            <select id="cars" name="Team1">
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Australia">Australia</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="England">England</option>
+                <option value="India">India</option>
+                <option value="Netherlands">Netherlands</option>
+                <option value="New Zealand">New Zealand</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Sri Lanka">Sri Lanka</option>
+            </select> 
+        </fieldset>
+        <fieldset class="form-fieldset ui-input __second">
+            <label for="cars">Choose a Team:</label>
+            <select id="cars" name="Team2">
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Australia">Australia</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="England">England</option>
+                <option value="India">India</option>
+                <option value="Netherlands">Netherlands</option>
+                <option value="New Zealand">New Zealand</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Sri Lanka">Sri Lanka</option>
+            </select> 
+        </fieldset>
+        <fieldset class="form-fieldset ui-input __third">
+            <label for="cars">Choose a City:</label>
+            <select id="cars" name="City">
+                
+                <option value="Ahmedabad">Ahmedabad</option>
+                <option value="Bengaluru">Bengaluru</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Dharamsala">Dharamsala</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Pune">Pune</option>
+            </select> 
+        </fieldset>
+
+        <!-- <fieldset class="form-fieldset ui-input __fifth">
+          <input type="text" name="Owner" id="repeat-new-password" />
+          <label for="repeat-new-password">
+            <span data-text="">How much owners previously had the car(0 or 1 or 3) ?</span>
+          </label>
+        </fieldset>
+        
+        <fieldset class="form-fieldset ui-input __fourth">
+          <input type="text" name="Fuel_Type_Petrol" id="repeat-new-password" />
+          <label for="repeat-new-password">
+            <span data-text="">What is the fuel type?(Petrol/Diesel/CNG)</span>
+          </label>
+        </fieldset>
+        
+        <fieldset class="form-fieldset ui-input __fifth">
+          <input type="text" name="Seller_Type_Individual" id="repeat-new-password" />
+          <label for="repeat-new-password">
+            <span data-text="">Are you a dealer or individual?</span>
+          </label>
+        </fieldset>
+
+        <fieldset class="form-fieldset ui-input __fifth">
+          <input type="text" name="Transmission_Manual" id="repeat-new-password" />
+          <label for="repeat-new-password">
+            <span data-text="">Is it a manual or automatic car</span>
+          </label>
+        </fieldset> -->
+
+
+        <div class="form-footer">
+          <button class="btn">Predict the winner</button>
+        </div>
+      </form>
+    </div>
+      <h3>{{ prediction_text }}</h3>
+    
+</body>
+</html>

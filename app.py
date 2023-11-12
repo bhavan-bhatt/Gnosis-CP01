@@ -13,7 +13,7 @@ def Home():
 
 @app.route("/predict",methods=['GET'])
 def check():
-    return render_template('index.html')
+    return render_template('predict.html')
 standard_to = StandardScaler()
 @app.route("/predict", methods=['POST'])
 def predict():
@@ -53,11 +53,11 @@ def predict():
         prediction=model.predict([[Team1,Team2,city2]])
         output=round(prediction[0],2)
         if output==0:
-            return render_template('index.html',prediction_texts=f"Winner is {Team1_Name}")
+            return render_template('predict.html',prediction_texts=f"Winner is {Team1_Name}")
         else:
-            return render_template('index.html',prediction_text=f"Winner is {Team2_Name}")
+            return render_template('predict.html',prediction_text=f"Winner is {Team2_Name}")
     else:
-        return render_template('index.html')
+        return render_template('predict.html')
 
 if __name__=="__main__":
     app.run(debug=True)

@@ -52,8 +52,8 @@ def predict():
         # else:
         #     Transmission_Mannual=0
         prediction=model.predict([[Team1,Team2,city2]])
-        output=round(prediction[0],2)
-        if output==0:
+        # output=round(prediction[0],2)
+        if prediction==0:
             return render_template('predict.html',prediction_texts=f"Winner is {Team1_Name}")
         else:
             return render_template('predict.html',prediction_text=f"Winner is {Team2_Name}")

@@ -21,9 +21,6 @@ function hide(){
 
 
 function check(){
-  // REMOVE THIS LINE BEFORE USE v
-  sessionStorage.setItem('alreadyClicked', "n"); // <---
-  // REMOVE THIS LINE BEFORE USE ^
   if (sessionStorage.getItem('alreadyClicked') != "y"){
     document.querySelector('.disclaimer-container').style.display = "block";
   } else{

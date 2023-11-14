@@ -8,7 +8,7 @@ We were alloted 3 tasks, in Task 1 we had to show our creativity, in that we are
 3) Finals Prediction: India vs South Africa <br>
 4) Winner of ICC World Cup 2023: India <br>
 
-**Paying 11 for India :**
+**Playing 11 for India :**
 Rohit Sharma, Shubman Gill, Virat Kohli, Shreyas Iyer, KL Rahul, Ravindra Jadeja, Jasprit Bumrah, Mohammed Siraj, Mohammed Shami,Kuldeep Yadav and Suryakumar Yadav <br>
 
 **Playing 11 for South Africa :** 

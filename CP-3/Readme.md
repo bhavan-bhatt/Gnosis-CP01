@@ -8,6 +8,13 @@ We were alloted 3 tasks, in Task 1 we had to show our creativity, in that we are
 3) Finals Prediction: India vs South Africa <br>
 4) Winner of ICC World Cup 2023: India <br>
 
+**PLaying 11 for India**
+Rohit Sharma, Shubman Gill, Virat Kohli, Shreyas Iyer, KL Rahul, Ravindra Jadeja, Jasprit Bumrah, Mohammed Siraj, Mohammed Shami,Kuldeep Yadav and Suryakumar Yadav <br>
+
+**Playing 11 for South africa** 
+Temba Bavuma, Aidam Markram, David Miller, Rassie Van der Dussen,Heinrich Klassen, Quinton de Kock,Keshav Maharaj, Kagiso Rabada, Lungi Ngidi,Gerald Coeztee,Marco Janson
+
+
 
 In order to perform all of these tasks we have used multiple datasets which were available in the public domain through [link1](https://www.kaggle.com/code/bhuvaneshprasad/sample-notebook-for-odi-matches-data) and [link2](https://www.kaggle.com/datasets/pardeep19singh/icc-mens-world-cup-2023). Apart from this we have used several classical Machine Learning models and used Artificial Neural Networks as well. In our main file you will find the entire flow of our project but to see the contribution of every team member you can check their own .ipynb files. (Commit history is also well maintained)
 

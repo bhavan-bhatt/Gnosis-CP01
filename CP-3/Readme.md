@@ -3,10 +3,10 @@
 We were alloted 3 tasks, in Task 1 we had to show our creativity, in that we are predicting number of extras as well as number of boundaries scored in the final of ICC world cup 2023 which is going to take place in Narendra Modi Stadium, Ahmedabad. In Task 2 we had to predict the 2 finalists and their playing 11, in the final task which is Task 3 we have to predict the winner of ICC world cup 2023.
 
 **Our Predictions are as follows:**
-Number of boundaries in final match : 30 when Team India bats and 31 when South Africa bats
-Number of extras in final match : 21 Runs
-Finals Prediction: India vs South Africa
-Winner of ICC World Cup 2023: India
+1) Number of boundaries in final match : 30 when Team India bats and 31 when South Africa bats <br>
+2) Number of extras in final match : 21 Runs <br>
+3) Finals Prediction: India vs South Africa <br>
+4) Winner of ICC World Cup 2023: India <br>
 
 
 In order to perform all of these tasks we have used multiple datasets which were available in the public domain through [link1](https://www.kaggle.com/code/bhuvaneshprasad/sample-notebook-for-odi-matches-data) and [link2](https://www.kaggle.com/datasets/pardeep19singh/icc-mens-world-cup-2023). Apart from this we have used several classical Machine Learning models and used Artificial Neural Networks as well. In our main file you will find the entire flow of our project but to see the contribution of every team member you can check their own .ipynb files. (Commit history is also well maintained)
